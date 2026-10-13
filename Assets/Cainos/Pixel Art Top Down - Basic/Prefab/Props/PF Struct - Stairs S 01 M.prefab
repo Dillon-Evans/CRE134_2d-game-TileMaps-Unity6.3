@@ -34,7 +34,11 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6075975974917516975
 SpriteRenderer:
+<<<<<<< HEAD
   serializedVersion: 2
+=======
+  serializedVersion: 3
+>>>>>>> 74531b255f4c61f37b05bd90bd144467416ff930
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -91,6 +95,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
 --- !u!1 &6075975974933568967
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,7 +131,11 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6075975974933568965
 SpriteRenderer:
+<<<<<<< HEAD
   serializedVersion: 2
+=======
+  serializedVersion: 3
+>>>>>>> 74531b255f4c61f37b05bd90bd144467416ff930
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -183,6 +192,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+  m_BlendShapeWeights: []
 --- !u!61 &6075975974933568964
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -299,7 +309,11 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6075975975660753994
 SpriteRenderer:
+<<<<<<< HEAD
   serializedVersion: 2
+=======
+  serializedVersion: 3
+>>>>>>> 74531b255f4c61f37b05bd90bd144467416ff930
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -356,6 +370,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+  m_BlendShapeWeights: []
 --- !u!61 &6075975975660753993
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -490,8 +505,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c3513c9018a5a9489aa2ee86a9d20f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   direction: 0
   layerUpper: Layer 2
   sortingLayerUpper: Layer 2
   layerLower: Layer 1
   sortingLayerLower: Layer 1
+=======
+  direction: 1
+  layerUpper: Layer 3
+  sortingLayerUpper: Layer 3
+  layerLower: Layer 2
+  sortingLayerLower: Layer 2
+>>>>>>> 74531b255f4c61f37b05bd90bd144467416ff930
