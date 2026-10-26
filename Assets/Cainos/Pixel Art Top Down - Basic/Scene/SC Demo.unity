@@ -1557,6 +1557,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Struct - Stairs S 01 M (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6075975974975622418, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 6075975975660753994, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
         type: 3}
       propertyPath: m_SortingLayer
@@ -10202,6 +10207,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 526559234}
     m_Modifications:
+    - target: {fileID: 6053453908578919066, guid: 295e819650a63784185fc3d55ce9e650,
+        type: 3}
+      propertyPath: direction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622417, guid: 295e819650a63784185fc3d55ce9e650,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25283,7 +25293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 743568859}
   - component: {fileID: 743568860}
-  m_Layer: 21
+  m_Layer: 22
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25747,6 +25757,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898484513}
     m_Modifications:
+    - target: {fileID: 97940379881846774, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
+      propertyPath: direction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622417, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -51391,6 +51406,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898484513}
     m_Modifications:
+    - target: {fileID: 97940379881846774, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
+      propertyPath: direction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622417, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -51905,7 +51925,7 @@ PrefabInstance:
     - target: {fileID: 8011174438655116583, guid: a0a66c9b152e801409fc26c4ca493d18,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -58248,6 +58268,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1898484513}
     m_Modifications:
+    - target: {fileID: 97940379881846774, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
+      propertyPath: direction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 97940379881846774, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
         type: 3}
       propertyPath: layerLower
