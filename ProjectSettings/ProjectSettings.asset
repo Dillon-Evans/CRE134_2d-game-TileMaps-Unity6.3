@@ -4,11 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-<<<<<<< Updated upstream
-  productGUID: 7e150050c0975af41bead5b1a222081b
-=======
-  productGUID: 2786b573dce170a43876282cf0e6b15c
->>>>>>> Stashed changes
+  productGUID: f2dafbd9335a2094aa6cacf560d09694
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -171,15 +167,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier: {}
-<<<<<<< Updated upstream
-  buildNumber:
-    Standalone: 0
-    VisionOS: 0
-    iPhone: 0
-    tvOS: 0
-=======
   buildNumber: {}
->>>>>>> Stashed changes
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 25
