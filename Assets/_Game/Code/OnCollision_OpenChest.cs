@@ -1,3 +1,4 @@
+using System.Drawing;
 using UnityEngine;
 
 public class OnCollision_OpenChest : MonoBehaviour
@@ -13,23 +14,18 @@ public class OnCollision_OpenChest : MonoBehaviour
     {
         
     }
-    private SpriteRenderer spriteRenderer;
-
-    private void Awake()
-    {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
          Debug.Log("Player collided with " + gameObject.name);
-         Debug.Log(spriteRenderer.sprite.name);
             // Add logic to open the chest here
         if (collision.gameObject.CompareTag("Player"))
         {
-            // Change the sprite to the open chest sprite
-            spriteRenderer.sprite = spriteRenderer.sprite = Resources.Load<Sprite>("Sprites/TX Props Chest Opened");
+            Transform child = transform.Find("PF Props - Chest 01");
+            // Change the object to the open chest object
+            child.GetComponent<SpriteRenderer>().enabled = false;
+            Transform childOpen = transform.Find("PF Props - Chest 01 Open");
+            childOpen.GetComponent<SpriteRenderer>().enabled = true;
             Debug.Log("Chest opened!");
-            Debug.Log(spriteRenderer.sprite.name);
         }
            
     }
