@@ -108,17 +108,17 @@ public class EnemyAI : MonoBehaviour
             case State.Idle:
                 // A random wait, so several enemies don't all move at the same moment.
                 idleTime = Random.Range(minIdleTime, maxIdleTime);
-                PlayAnimation("Slime_Idle");
+                PlayAnimation("Skeleton_Idle");
                 break;
             case State.Wander:
                 // A random spot inside a circle around home, so it never wanders off for good.
                 wanderTarget = homePosition + Random.insideUnitCircle * wanderRadius;
                 moveSpeed = wanderSpeed;
-                PlayAnimation("Slime_Move");
+                PlayAnimation("Skeleton_Walk");
                 break;
             case State.Chase:
                 moveSpeed = chaseSpeed;
-                PlayAnimation("Slime_Move");
+                PlayAnimation("Skeleton_Walk");
                 break;
         }
     }
